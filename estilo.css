@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+  
+}
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+img{
+    width: 100px;
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+    
+}
+.menu ul, .menu li{
+    list-style:none;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none;
+    padding-left:10px ;
+    padding-right: 10px;
+    display: flex;
+    height: 100px;
+    align-items:end;
+    border-bottom: 5px solid #007047;
+}
+
+.menu li a:hover,
+.menu .active a{
+    border-bottom: 5px solid #52d1a2;
+    color: #000000;
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+.extras{
+    position: absolute;
+    bottom:-250px;
+    right: -250px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color:#007047;
+}
+.img{
+    width: 300px;
+}
+.social-media{
+    position: absolute;
+    right: 10px;
+    top: 120px;
+}
+.social-media img{
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+}
+.texto-sobre{
+    margin-top: 100px;
+}
+.texto-sobre h1{
+    font-size: 50px;
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: #007047;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
